@@ -15,3 +15,20 @@ Author: opa334 <opa334@protonmail.com>
 Depiction: https://opa334.github.io/depic/Choicy/index.html
 Name: Choicy
 
+Package: com.zeroxjf.pathmask
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Maintainer: 0xjohnny
+Installed-Size: 76
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/com.zeroxjf.pathmask_0.1.0_iphoneos-arm64.deb
+Size: 4268
+MD5sum: 45e5334dedd073a13d25eab3e5de3049
+SHA1: 603161cbf7ef02cc35da804ebfc47bad77941a2f
+SHA256: 800286c62f90747194cdc1109b5aa6e78717420a4dc25328e20c900be8ceec4f
+Section: Tweaks
+Description: Hide a small set of jailbreak file paths from selected apps. Ring is enabled by default.
+Author: 0xjohnny
+Name: PathMask
+Sileodepiction: https://0xjohnnydev.github.io/beta/depictions/com.zeroxjf.pathmask.json
+

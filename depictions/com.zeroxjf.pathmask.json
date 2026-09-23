@@ -1,0 +1,69 @@
+{
+  "minVersion": "0.1",
+  "tintColor": "#5B9FFF",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**PathMask is an experimental per-app compatibility tweak.**\n\nIt makes a small, fixed list of common jailbreak file paths appear absent inside selected apps. It does not rename, remove, or change the real files. Ring is enabled by default.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Use"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Open **Settings > PathMask** and enable only the apps that need it. Fully close and reopen an app after you change its setting. A respring is not required.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Scope"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "PathMask intercepts `NSFileManager`, `open`, `fopen`, `access`, `stat`, and `lstat` checks for selected paths. All other file operations pass through unchanged. It does not provide a complete jailbreak concealment system.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Compatibility"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "iOS 15.0–27.0 | arm64 | Rootless | Requires ElleKit or a compatible MobileSubstrate loader, PreferenceLoader, and AltList.",
+          "useSpacing": true
+        }
+      ],
+      "class": "DepictionStackView"
+    },
+    {
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "0.1.0"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Initial beta release\n- Per-app selection in Settings\n- Ring enabled by default\n- Exact path masking for Foundation and common C file checks",
+          "useSpacing": true
+        }
+      ],
+      "class": "DepictionStackView"
+    }
+  ],
+  "class": "DepictionTabView"
+}
