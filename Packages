@@ -32,3 +32,25 @@ Author: 0xjohnny
 Name: PathMask
 Sileodepiction: https://0xjohnnydev.github.io/beta/depictions/com.zeroxjf.pathmask.json
 
+Package: me.jjolano.shadow
+Version: 4.0.1
+Architecture: iphoneos-arm64
+Maintainer: jjolano
+Installed-Size: 2164
+Pre-Depends: dpkg
+Depends: firmware (>= 15.0), com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit (>= 3.0.4)
+Recommends: mobilesubstrate, preferenceloader
+Suggests: com.ps.injectionfoundation
+Conflicts: me.jjolano.shadow.beta, me.jjolano.shadow.legacy
+Replaces: me.jjolano.shadow.beta, me.jjolano.shadow.legacy
+Provides: me.jjolano.shadow.beta
+Filename: debs/me.jjolano.shadow_4.0.1_iphoneos-arm64.deb
+Size: 287462
+MD5sum: 47146e43a4aa10a6862ea1095924afc1
+SHA1: b8e89eb8cfdbeeade44f45702e27795a0c72ab32
+SHA256: a9d6ce36b0fe6d688ba764cf7abf7f47e9fc973a1663bd0daf2c8d3e2ed2a1c9
+Section: System
+Description: Shadow
+Author: jjolano
+Name: Shadow
+

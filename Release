@@ -6,12 +6,12 @@ Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: 0xjohnny's beta jailbreak repo
 MD5Sum:
- ed35bafb2953df70b8c12e537e398696 1281 Packages
- 422beabf8cee08798294c16daf463468 697 Packages.gz
- 72cd848b628119b10f4c175b75ec7ffe 762 Packages.bz2
- 5a6f010d655df0c5e8c1ddd34ab9ec9b 768 Packages.xz
+ 881efae557903e956d0d231d92136698 2049 Packages
+ 3bcf4cdfb857d83f60f2020ed0fd67f4 965 Packages.gz
+ 284f0aab4af9e32aeedfebedc5282c63 1059 Packages.bz2
+ 162edbbb491b257719a2df5be36fb813 1032 Packages.xz
 SHA256:
- f5fa985dfb05d455e3e667b8202b41820e38086c1d4a2a6c49f34021d2f793ee 1281 Packages
- 2577f96bc9e3f7667ca8a9fe528579f7b2ab15c578925c6a5f3b6ad38f4e9b83 697 Packages.gz
- 3fc7462c059c48cd7683a9587ae2d5e3595ad1a8b5083c14b732d4ac49469ed5 762 Packages.bz2
- a6d164dc413a600ef34f177937dc4ca89663dd482ebead4fd6175d79dfe36875 768 Packages.xz
+ 5e2e726c5b7cb5a52d5eb9daa594883518a71cf89c89e2f7b4cc9dbd88a3f919 2049 Packages
+ 4d1aeea3663e1d77f66ad0d18c9fb27f047000333710a0ebb0a6af1d08ee615a 965 Packages.gz
+ b72c06271dc0ca4d00898ce25f7d59c0691ac85050a3e49763d5cb39fb9fe883 1059 Packages.bz2
+ d85ec10de762a9a48b7c06fb92817daf8ab41c56a9ecfaca84e071001bf89413 1032 Packages.xz
